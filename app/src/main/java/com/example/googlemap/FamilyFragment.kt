@@ -39,7 +39,7 @@ class FamilyFragment : Fragment() {
     }
 
     private fun setUpListener() {
-        var markerOptionPune = MarkerOptions()
+        val markerOptionPune = MarkerOptions()
         markerOptionPune.position(LatLng(18.5204, 73.8567)).title("Pune").snippet("Our Pune")
             .draggable(true)
 
